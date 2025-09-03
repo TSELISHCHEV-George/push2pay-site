@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 280'>
+<rect width='520' height='280' rx='24' fill='#f5f7ff'/>
+<rect x='60' y='80' width='180' height='120' rx='16' fill='#fff' stroke='#ccc'/>
+<rect x='280' y='80' width='180' height='120' rx='16' fill='#fff' stroke='#ccc'/>
+<text x='90' y='150' font-size='36' font-family='Arial Black' fill='#1a1f71'>VISA</text>
+<circle cx='350' cy='140' r='40' fill='#eb001b'/>
+<circle cx='390' cy='140' r='40' fill='#f79e1b' fill-opacity='0.9'/>
+</svg>

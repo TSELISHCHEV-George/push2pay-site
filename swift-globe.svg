@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380">
+<defs>
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7c5cff"/>
+    <stop offset="50%" stop-color="#ff5fa2"/>
+    <stop offset="100%" stop-color="#21c9d5"/>
+  </linearGradient>
+</defs>
+<rect width="600" height="380" rx="28" fill="#0f1631"/>
+<!-- Globe -->
+<circle cx="300" cy="190" r="120" fill="none" stroke="url(#grad1)" stroke-width="3"/>
+<circle cx="300" cy="190" r="60" fill="none" stroke="#21c9d5" stroke-width="1.5" opacity="0.6"/>
+<ellipse cx="300" cy="190" rx="120" ry="50" fill="none" stroke="#7c5cff" stroke-width="1.5" opacity="0.6"/>
+<ellipse cx="300" cy="190" rx="50" ry="120" fill="none" stroke="#ff5fa2" stroke-width="1.5" opacity="0.6"/>
+<!-- Points -->
+<circle cx="240" cy="150" r="6" fill="#21c9d5"/>
+<text x="230" y="140" font-size="12" fill="#21c9d5">London</text>
+<circle cx="360" cy="140" r="6" fill="#ff5fa2"/>
+<text x="350" y="130" font-size="12" fill="#ff5fa2">Dubai</text>
+<circle cx="260" cy="240" r="6" fill="#ffb65e"/>
+<text x="250" y="265" font-size="12" fill="#ffb65e">Singapore</text>
+<circle cx="330" cy="240" r="6" fill="#90e36a"/>
+<text x="320" y="265" font-size="12" fill="#90e36a">Hong Kong</text>
+<!-- Lines -->
+<path d="M240 150 Q300 100 360 140" stroke="#fff" stroke-width="1.2" fill="none" opacity="0.6"/>
+<path d="M240 150 Q250 200 260 240" stroke="#21c9d5" stroke-width="1.2" fill="none" opacity="0.6"/>
+<path d="M360 140 Q340 190 330 240" stroke="#ff5fa2" stroke-width="1.2" fill="none" opacity="0.6"/>
+<path d="M260 240 Q295 220 330 240" stroke="#ffb65e" stroke-width="1.2" fill="none" opacity="0.6"/>
+<!-- Transaction numbers -->
+<text x="270" y="125" font-size="14" fill="#fff">€12M</text>
+<text x="375" y="180" font-size="14" fill="#fff">+8M</text>
+<text x="270" y="280" font-size="14" fill="#fff">€5.4B</text>
+</svg>
